@@ -1,0 +1,21 @@
+{
+  "name": "js-basic-course",
+  "version": "1.0.0",
+  "description": "Corso Base di Javascript per Start2Impact.",
+  "main": "index.js",
+  "author": "Alessandro Middei",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "cssnano": "^4.0.4",
+    "postcss-import": "^11.1.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "postcss-purgecss": "^1.0.0",
+    "tailwindcss": "^0.6.4"
+  },
+  "scripts": {
+    "dev": "parcel serve index.html",
+    "prod": "parcel build index.html"
+  }
+}
